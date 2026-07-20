@@ -298,3 +298,363 @@ section{
     box-shadow:0 10px 30px rgba(0,0,0,.4);
 
 }
+/*==========================
+ Skills
+==========================*/
+
+.skills-grid{
+
+    max-width:1200px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+    gap:25px;
+
+}
+
+.skill-card{
+
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+
+    text-align:center;
+
+    font-size:20px;
+    font-weight:600;
+
+    transition:.4s;
+
+    cursor:pointer;
+
+    border:1px solid transparent;
+
+}
+
+.skill-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#38bdf8;
+
+    box-shadow:0 0 25px rgba(56,189,248,.5);
+
+}
+
+/*==========================
+ Projects
+==========================*/
+
+.projects-grid{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+}
+
+.project-card{
+
+    background:#1e293b;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    transition:.4s;
+
+    cursor:pointer;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 0 30px rgba(56,189,248,.4);
+
+}
+
+.project-card h3{
+
+    color:#38bdf8;
+
+    margin-bottom:15px;
+
+}
+
+.project-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.8;
+
+}
+
+.project-card span{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    color:#94a3b8;
+
+    font-size:14px;
+
+}
+
+/*==========================
+ Education
+==========================*/
+
+.education-card{
+
+    max-width:800px;
+
+    margin:25px auto;
+
+    background:#1e293b;
+
+    padding:30px;
+
+    border-left:6px solid #38bdf8;
+
+    border-radius:15px;
+
+    transition:.4s;
+
+}
+
+.education-card:hover{
+
+    transform:translateX(10px);
+
+}
+
+.education-card h3{
+
+    color:#38bdf8;
+
+    margin-bottom:10px;
+
+}
+
+.education-card p{
+
+    color:#cbd5e1;
+
+    margin-top:8px;
+
+}
+
+/*==========================
+ Achievements
+==========================*/
+
+.achievement-list{
+
+    max-width:1000px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+
+}
+
+.achievement-list div{
+
+    background:#1e293b;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    transition:.4s;
+
+}
+
+.achievement-list div:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:0 0 20px rgba(56,189,248,.5);
+
+}
+
+/*==========================
+ Contact
+==========================*/
+
+.contact-box{
+
+    max-width:700px;
+
+    margin:auto;
+
+    background:#1e293b;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+}
+
+.contact-box p{
+
+    margin:20px 0;
+
+    font-size:18px;
+
+    color:#cbd5e1;
+
+}
+
+.contact-box i{
+
+    color:#38bdf8;
+
+    margin-right:10px;
+
+}
+
+.contact-buttons{
+
+    margin-top:30px;
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+}
+
+/*==========================
+ Footer
+==========================*/
+
+footer{
+
+    background:#020617;
+
+    text-align:center;
+
+    padding:30px;
+
+    margin-top:80px;
+
+}
+
+footer p{
+
+    color:#94a3b8;
+
+}
+
+/*==========================
+ Responsive
+==========================*/
+
+@media(max-width:991px){
+
+.hero{
+
+flex-direction:column-reverse;
+
+text-align:center;
+
+}
+
+.hero-content{
+
+margin-top:50px;
+
+}
+
+.hero-content h1{
+
+font-size:46px;
+
+}
+
+.hero-image img{
+
+width:300px;
+
+height:300px;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+}
+
+.social-icons{
+
+justify-content:center;
+
+}
+
+.nav-links{
+
+display:none;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.hero-content h1{
+
+font-size:36px;
+
+}
+
+.hero-content h2{
+
+font-size:22px;
+
+}
+
+.section-title{
+
+font-size:32px;
+
+}
+
+.btn{
+
+padding:12px 22px;
+
+}
+
+.hero-image img{
+
+width:240px;
+
+height:240px;
+
+}
+
+}
